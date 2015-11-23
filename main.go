@@ -44,6 +44,7 @@ router ospf
   redistribute static
   network {{.HomeNet}} area 0.0.0.0
   network {{.ContainerNet}} area 0.0.0.0
+  area 0.0.0.0 authentication
 `
 
 func check(e error) {
