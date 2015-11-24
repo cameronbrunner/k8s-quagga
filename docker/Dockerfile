@@ -7,7 +7,7 @@ RUN apk-install quagga \
                 supervisor
 
 ADD supervisord.conf /etc/supervisord.conf
-ADD https://github.com/SchwarzM/k8s-quagga/releases/download/v0.0.4/k8s-quagga_linux_amd64 /k8s-quagga
+ADD https://github.com/cameronbrunner/k8s-quagga/releases/download/v0.0.5/k8s-quagga /k8s-quagga
 #ADD k8s-quagga /k8s-quagga
 RUN chmod +x /k8s-quagga
 ADD run.sh /run.sh
