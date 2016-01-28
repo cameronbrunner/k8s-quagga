@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 	//  "fmt"
-	"github.com/k8s-quagga/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/codegangsta/cli"
 	"path"
 	"text/template"
 )

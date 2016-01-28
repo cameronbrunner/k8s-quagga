@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/k8s-quagga",
+	"ImportPath": "github.com/cameronbrunner/k8s-quagga",
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{
